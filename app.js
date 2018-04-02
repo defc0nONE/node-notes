@@ -16,7 +16,8 @@ if (command === 'add') {
     if (_.isUndefined(note) === true) {
         console.log('Note title already exists, did not add');
     } else {
-        console.log(`Note added successfully as: ${note.title} with the contents: ${note.body}`);
+        console.log('Note added:');
+        notes.logNote(note);
     }
 } else if (command === 'list') {
     notes.getAll();
@@ -25,9 +26,8 @@ if (command === 'add') {
     if (_.isUndefined(note) === true) {
         console.log(`No note called "${argv.title}" exists`);
     } else {
-        console.log(`Note contents of "${note.title}"`);
-        console.log('---');
-        console.log(`${note.body}`);
+        console.log('Note found:');
+        notes.logNote(note);
     }
 } else if (command === 'remove') {
     var noteRemoved = notes.removeNote(argv.title);
