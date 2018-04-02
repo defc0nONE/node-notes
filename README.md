@@ -23,5 +23,5 @@ node app.js add --title='example note title' --body='example note text'
 ```
 #### Removing a note
 ```
-node app.js remove --title'example note title'
+node app.js remove --title='example note title'
 ```
