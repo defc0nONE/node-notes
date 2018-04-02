@@ -4,6 +4,7 @@ A simple CLI-based app inspired by my Week 6 group challenge at Makers Academy t
 
 Current features:
  - Adds and removes notes
+ - Fetches a note by its title if found and output to terminal
  - Messages output to terminal whether command is successful
 
 
@@ -24,4 +25,8 @@ node app.js add --title='example note title' --body='example note text'
 #### Removing a note
 ```
 node app.js remove --title='example note title'
+```
+#### Fetching a specific note
+```
+node app.js read --title='example note title'
 ```
