@@ -1,12 +1,21 @@
 # node-notes
 
-*"What the hell is Node.js anyway?" - member of a group project*
+*"What the hell is Node.JS anyway?" - member of a group project*
 
-A simple CLI app inspired by the struggles my group and I went through to set up an AirBNB clone using technology we'd never used before. Whilst I managed to set up and understand to some degree how to set up the Express framework using Node.JS, I'd like to do a bit more than just poke some commands I found scouring the internet!
+A simple CLI app inspired by the struggles my group and I went through to set up an AirBNB clone using technology we'd never used before during the 6th week of Makers. Whilst I managed to set up and understand to some degree how to set up the Express framework using Node.JS, I'd like to do a bit more than just poke some commands I found scouring the internet!
 
-This was *not* a TDD-driven application (*gasp*) - simply wished to experiment with an example CLI app just to get my feet wet with third party libraries and some ES6 syntax.
+This was *not* a TDD-driven application (*gasp*) - simply wished to experiment with a quickly built CLI app.
 
-#### Current features:
+
+#### Self-reflection (finished 2nd April '18):
+- Learned more about what Node.JS is and how to employ third party libraries to do tedious tasks
+- A better insight into certain aspects such as what JSON is and how to manipulate it to do your (evil) bidding
+- Using third party libraries such as lodash and yargs
+- Hands on experience with experimenting with ES6 syntax
+- Need to write more concise (read: less shitty) commit messages
+ ---
+
+## Features:
  - Adds, lists all stored notes and removes notes
  - Fetches a specific note by its title if found and output to terminal
  - Messages output to terminal whether command is successful
